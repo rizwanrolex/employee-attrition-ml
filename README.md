@@ -2,6 +2,12 @@
 
 **Academic machine-learning project | University of Lahore**
 
+| Dataset | Best model | Test accuracy | Test F1-score | Test ROC-AUC |
+|:---:|:---:|:---:|:---:|:---:|
+| **10,000 rows** | **Random Forest** | **98.25%** | **94.49%** | **0.9802** |
+
+[View research report (PDF)](docs/Employee_Attrition_Research_Report_Footer_Clean.pdf) · [View presentation](docs/Employee_Attrition_Research_Presentation_6_Slides.pptx) · [Open notebook](notebooks/Employee_Attrition_10000_Google_Colab.ipynb)
+
 Project students (from the original submitted article): **Abdul Rehman** and **Muhammad Rizwan**.
 
 This project compares **Logistic Regression, Random Forest, and SVM** for binary employee attrition prediction on a stratified 10,000-row subset of a public HR Analytics educational benchmark. The target is `Attrition` (`Yes` = employee left, `No` = stayed).
@@ -32,6 +38,26 @@ This project compares **Logistic Regression, Random Forest, and SVM** for binary
 | **98.25%** | **99.01%** | **90.36%** | **94.49%** | **0.9802** |
 
 Confusion matrix: TN = 1,665; FP = 3; FN = 32; TP = 300. All metrics refer to the positive class (`Attrition=Yes`) except overall accuracy and ROC-AUC.
+
+## Visual results
+
+These figures are included in the repository and display directly on GitHub. The [PDF research report](docs/Employee_Attrition_Research_Report_Footer_Clean.pdf) contains the full write-up.
+
+### Dataset and split
+
+| Class distribution | Satisfaction distribution |
+|:---:|:---:|
+| <img src="results/class_distribution.png" alt="Employee attrition class distribution" width="420"> | <img src="results/satisfaction_distribution.png" alt="Employee satisfaction distribution" width="420"> |
+
+<p align="center"><img src="results/data_split.png" alt="Train, validation and test split" width="650"></p>
+
+### Model comparison and evaluation
+
+| Validation comparison | ROC curve |
+|:---:|:---:|
+| <img src="results/validation_comparison.png" alt="Validation metrics for the three models" width="420"> | <img src="results/roc_curve.png" alt="ROC curves for the compared models" width="420"> |
+
+<p align="center"><img src="results/confusion_matrix.png" alt="Confusion matrix chart" width="650"></p>
 
 ## Getting started
 
