@@ -1,0 +1,14 @@
+# Data is sourced externally. Review its license before redistributing.
+data/*.csv
+data/*.xlsx
+# Model binaries are not reviewed for security or redistribution.
+*.joblib
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+*.py[cod]
+.DS_Store
+results/reproduced/

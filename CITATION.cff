@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: If you use this code in educational work, please cite the repository and the original dataset source.
+title: Employee Attrition Prediction with Machine Learning (10,000-row Benchmark)
+authors:
+  - family-names: Rehman
+    given-names: Abdul
+  - family-names: Rizwan
+    given-names: Muhammad
+date-released: 2026-11-11
+version: 1.0.0
+license: MIT
+keywords:
+  - employee-attrition
+  - classification
+  - machine-learning
